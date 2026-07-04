@@ -1,6 +1,6 @@
 
 name: Build Android APK
-
+rm -rf /usr/local/lib/android/sdk/tools
 on:
   workflow_dispatch:
   push:
